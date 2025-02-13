@@ -1,0 +1,109 @@
+@font-face{
+    font-family: "Arima";
+    src: url("../fonts/Arima.zip");
+}
+body{
+    font-family: "Arima",sans-serif;
+}
+.box{
+    width: 1200px;
+    margin: 100px auto;
+}
+.qush{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 0 20px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: lightblue;
+    left: 300px;
+    transform: skewX(6deg);
+    transition: all 1s ease-in-out;
+}
+.tulki{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    position: absolute;
+    border-radius: 30px;
+    left: 430px;
+    transform: skewX(6deg);
+    background-color: lightblue;
+    transition: all 1s ease-in-out;
+}
+.kuchuk{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 30px;
+    left: 560px;
+    background-color: lightblue;
+    transition: all 1s ease-in-out;
+}
+.pingvin{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    left: 703px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    z-index: -1;
+    border-radius: 30px;
+    transform: skewX(-6deg);
+    background-color: lightblue;
+    transition: all 1s ease-in-out;
+}
+.sher{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    left: 825px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    background-color: lightblue;
+    z-index: -2;
+    transform: skewX(-6deg);
+    transition: all 1s ease-in-out;
+  
+}
+.sher:hover{
+    transform: scale(1.5,1) skew(-6deg);
+    z-index: 3;
+}
+.pingvin:hover{
+    transform: scale(1.5,1) skew(-6deg);
+    z-index: 3;
+}
+.qush:hover{
+    transform: scale(1.5,1) skew(6deg);
+    z-index: 3;
+}
+.tulki:hover{
+    transform: scale(1.5,1) skew(6deg);
+    z-index: 3;
+}
+.kuchuk:hover{
+    transform: scale(1.5,1);
+    z-index: 3;
+}

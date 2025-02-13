@@ -1,0 +1,69 @@
+table{
+    width: 700px;
+    height: 100px;
+    color: orangered;
+    text-align: center;
+}
+.ikki-item-1{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 5px solid blue;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+}
+.ikki-item-2{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border: 5px solid blue;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+}
+.uch-item-1{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 5px solid blue;
+    box-shadow: 10px 10px rgba(0,0,0,0.4) inset;
+}
+.uch-item-2{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border: 5px solid blue;
+    box-shadow: 10px 10px rgba(0,0,0,0.4) inset;
+}
+.tort-item-1{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 5px solid blue;
+    box-shadow: 10px 10px 0 10px rgba(0,0,0,0.4);
+    
+}
+.tort-item-2{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border: 5px solid blue;
+    box-shadow: 10px 10px 0 10px rgba(0,0,0,0.4);
+}
+.besh-item-1{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 5px solid blue;
+    box-shadow: 10px 10px 0 10px rgba(0,0,0,0.4) inset;
+    
+}
+.besh-item-2{
+    width: 180px;
+    height: 180px;
+    background-color: orange;
+    border: 5px solid blue;
+    box-shadow: 10px 10px 0 10px rgba(0,0,0,0.4) inset;
+
+}
